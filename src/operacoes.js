@@ -45,7 +45,9 @@ function isImpar(n) { return n % 2 !== 0; }
 function calcularPorcentagem(percentual, valor) { return (valor * percentual) / 100; }
 function aumentarPorcentagem(valor, percentual) { return valor * (1 + percentual / 100); }
 function diminuirPorcentagem(valor, percentual) { return valor * (1 - percentual / 100); }
-function inverterSinal(n) { return -n; }
+function inverterSinal(numero) {
+  return numero === 0 ? 0 : -numero;
+}
 
 // === Bloco 3: Funções Trigonométricas e Logarítmicas (21-30) ===
 function seno(anguloRad) { return Math.sin(anguloRad); }
