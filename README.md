@@ -2,7 +2,6 @@
 
 > **Disciplina:** Teste de Software  
 > **Aluno:** Renato Matos Alves Penna  
-> **Matrícula:** 817693
 
 ## 📋 Sobre o Projeto
 
